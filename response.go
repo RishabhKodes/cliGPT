@@ -23,5 +23,5 @@ func getResponse(ctx context.Context, client gpt3.Client, question string) {
 		fmt.Println(err)
 		os.Exit(13)
 	}
-	fmt.Println("\n")
+	fmt.Print("\n")
 }
